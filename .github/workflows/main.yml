@@ -10,5 +10,4 @@ jobs:
       - name: Build Docker
         run: |
           cd infrastructure
-          make build
-          make up
+          make create-project
